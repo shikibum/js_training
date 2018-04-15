@@ -8,9 +8,10 @@
   <script>
   /*
   ループ処理
-  while
-  do....while
-  */
+  for
+
+  breakループ処理を抜ける
+  continue　スキップする
   // var i = 0;
   // while (i < 10 ) {
   //   console.log(i);
@@ -19,7 +20,13 @@
   var i = 0;
   do {
     console.log(i);
-  } while (i < 10);
+  } while (i < 10); */
+  for (var i = 0; i < 10; i++) {
+    if (i === 5) {
+      continue;
+    }
+    console.log(i);
+  }
 </script>
 </body>
 </html>
