@@ -7,21 +7,19 @@
 <body>
   <script>
 /*
-オブジェクト グループ化されたデータ
+雲込みオブジェクト
+
+- string
+- array
+- math
+- date
 */
 
- var user = {
-   email: "taguchi@gmail.com", //プロパティ
-   score: 80,
-   greet: function(name) { //メソッド
-     console.log("hello," + name + " from " + this.email);
-   }
- };
-//  console.log(user["email"]);
-//  console.log(user.email);
-// user.score = 100
-// console.log(user);
-user.greet("tom")
+// var s = new String("taguchi")
+var s = "taguchi"; //文字列リテラル
+console.log(s.length);
+console.log(s.replace("t","T"));
+console.log(s.substr(1, 3));
 
 </script>
 </body>
