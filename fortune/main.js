@@ -4,8 +4,7 @@
   var btn = document.getElementById('btn');
 
   btn.addEventListener('click', function() {
-    var n =  Math.floor(Math.random() * 3);
-    this.textContent = n;
+    this.textContent = 'hit!';
   });
 
   btn.addEventListener('mousedown', function() {
