@@ -35,3 +35,26 @@ ul.menu li a {
     padding: 7px;
     color: #333;
 }
+
+ul.menu li a.active {
+  background: #353d3e;
+  color: #fff;
+}
+
+ul.menu li a:not(.active):hover {
+  opacity: 0.5;
+  transition: .8s;
+}
+
+.content {
+  font-size: 14px;
+  padding: 7px 10px;
+  line-height: 1.4;
+  background: #353d3e;
+  color: #fff;
+  min-height: 150px;
+  display: none;
+}
+.content.active {
+  display: block;
+}
